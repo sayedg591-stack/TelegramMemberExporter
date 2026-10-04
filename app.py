@@ -4,7 +4,7 @@ import streamlit as st
 from telethon.sync import TelegramClient
 from telethon.sessions import StringSession
 from telethon.tl.functions.channels import InviteToChannelRequest
-from telethon.tl.types import InputPeerUser
+from telethon.tl.types import InputPeerUser  
 from telethon.errors import FloodWaitError
 
 # Lista de 3 contas para distribuir a carga
